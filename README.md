@@ -1,36 +1,78 @@
-🌾 E-Farm – Online Agricultural Marketplace
+# Efarm
+E-farm Shopping is a web application developed for farmers to automate the purchasing of agricultural equipment.
 
-E-Farm is a web-based agricultural marketplace designed to bridge the gap between farmers, suppliers, and consumers.
-It provides a simple and efficient platform where users can browse farming products, explore detailed information, manage wishlists, and directly contact vendors for purchases.
-The admin dashboard ensures smooth operation through centralized control over products, users, vendors, and database records.
-E-Farm aims to digitalize agriculture by making farm essentials easily accessible through a clean and user-friendly web application.
+# Technology Used:
+Front End: HTML, CSS<br>
+Back End: PHP, MYSQL 
 
-🚀 Features
+# Requirements
+Download Visual Studio Code, XAMPP for Windows, and a browser.<br>
+Start: `Apache` and `mysql` in XAMPP Control Panel.<br>
+In http://localhost/phpmyadmin/, create a database called `alb` and import the file `alb.sql`.<br>
+Run locally in browser: `http://localhost/foldername`<br>
+Login credentials for Admin: `Admin123`
 
-👨‍🌾 User Features
-1. User registration & login
-2. Browse products by category (Seeds, Fertilizers, Tools, Machinery, etc.)
-3. Product search bar for quick lookup
-4. Detailed product description, pricing & vendor info
-5. Add/remove wishlist items
-6. Contact vendor directly to purchase
+# Stakeholders:
+## Customers: 
+The E-farm shopping website gives convenience access to a larger selection of quality products. Customers are able to search items they needed, view the items based on categories, wish list and buy them online. The customers are also able to add review on their purchase.
 
-🛠️ Admin Features
-1. Admin login with authentication
-2. Add, update, delete products
-3. Manage users and vendor accounts
-4. View sales data
-5. Maintain database integrity
-6. Update product categories
+## Admin:
+The admin will have direct, personalized communication with the customer and are also able to access their details quickly (email, purchase history etc.), in order, to make optimized business decisions, operations, products and services. Admin is able to manage the items in the store online
 
-💾 Database Features
-1. MySQL relational database
-2. Proper schema design with foreign key constraints
-3. Secure data storage
-4. Tables: Users, Items, Vendor, Wishlist, Sales, Vendor Products
+## Guest: 
+The system allows greater privacy, in which one can view the details of the item including reviews and prices without login into the system. That is, without sharing any personnel information they can view the item details such as price, stock, description etc.
 
-🧱 Tech Stack
-1. Frontend:	HTML, CSS, Bootstrap
-2. Backend:	PHP
-3. Database:	MySQL
-4. Server:	Apache (XAMPP / WAMP)
+# Hosting
+Create an AWS EC2 Instance and Connect to the Remote Desktop Protocol. Then Set Up the Project and Configure Security for necessary incoming and outgoing traffic. Then simply run for example `http://3.88.230.42/Efarm`(due to billing: I've stopped the instance).
+
+# About Me
+<img src="./css/image/347393526_250171240894141_1652025665265698400_n.jpg" alt="drawing" width="200"/>
+
+Albert Sebastian<br>
+albertsebastian75@gmail.com<br>
+8590956627<br>
+Kerala, India
+
+# Screenshots
+<table align="center">
+    <tr>
+      <td align="center"><img src="./css/screenshots/index.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/view all.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/cus index.JPG" width="200"></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="./css/screenshots/login.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/signup.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/guest ind view.JPG" width="200"></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="./css/screenshots/forgot password.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/wislist.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/order.JPG" width="200"></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="./css/screenshots/acount.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/cust view indi.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/confirm buy.JPG" width="200"></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="./css/screenshots/pay.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/admin login.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/admin index.JPG" width="200"></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="./css/screenshots/admin add.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/admin ad.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/admin mang.JPG" width="200"></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="./css/screenshots/admin image.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/admin update.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/admin delete.JPG" width="200"></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="./css/screenshots/admin usr view.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/admin del usr.JPG" width="200"></td>
+      <td align="center"><img src="./css/screenshots/admin ind usr view.JPG" width="200"></td>
+    </tr>
+  </table>
