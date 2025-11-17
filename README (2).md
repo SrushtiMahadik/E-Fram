@@ -26,9 +26,7 @@ The system allows greater privacy, in which one can view the details of the item
 Create an AWS EC2 Instance and Connect to the Remote Desktop Protocol. Then Set Up the Project and Configure Security for necessary incoming and outgoing traffic. Then simply run for example `http://3.88.230.42/Efarm`(due to billing: I've stopped the instance).
 
 # About Me
-![banner](banner.jpg)
-
-Mahesh Kshirsagar<br>
-maheshkshirsagar510@gmail.com<br>
+Srushti Mahadik<br>
+mahadiksrushti09@gmail.com<br>
 Maharashtra, India
 
